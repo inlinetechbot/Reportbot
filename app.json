@@ -1,0 +1,34 @@
+{
+    "name": "Telegram Mass Report Bot",
+    "description": "Telegram Mass Report Bot ",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33R5XUo-GedPxtQyFfPsxjx1YEcl0RJzZmtDyxh6n15gCDTrF9SPrRh_9&s=10",
+    "keywords": ["Report Bot", "Report", "Ban", "Channel Report", "Telegram Channel Report"],    
+    "repository": "https://github.com/username👀",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From my.telegram.org ",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org ",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": "",
+            "required": true
+        },
+        "OWNER": {
+            "description":"Add Your User or Chat ID",
+            "value": "",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
